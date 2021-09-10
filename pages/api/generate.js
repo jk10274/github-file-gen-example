@@ -16,7 +16,7 @@ export default (req, res) => {
 
         const { data } = await octokit.repos.createOrUpdateFileContents({
         // replace the owner and email with your own details
-        owner: "apuembot",
+        owner: "jk10274",
         repo: "github-file-gen-example",
         path: "g/OUTPUT.md",
         message: "feat: Added OUTPUT.md programatically",
