@@ -23,11 +23,11 @@ export default (req, res) => {
         content: contentEncoded,
         committer: {
             name: `jk10274`,
-            email: "apuembot@protonmail.com",
+            email: "account.jk@protonmail.com",
         },
         author: {
             name: "jk10274",
-            email: "apuembot@protonmail.com",
+            email: "account.jk@protonmail.com",
         },
         });
 
