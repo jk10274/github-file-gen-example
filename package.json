@@ -9,7 +9,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@octokit/rest": "^18.10.0",
+    "dotenv": "^10.0.0",
     "gray-matter": "^4.0.2",
+    "js-base64": "^3.7.0",
     "next": "latest",
     "nextra": "^0.4.4",
     "nextra-theme-blog": "^0.1.5",
@@ -23,5 +26,7 @@
     "tabWidth": 2,
     "trailingComma": "none",
     "semi": false
-  }
+  },
+  "repository": "https://github.com/jk10274/github-file-gen-example.git",
+  "author": "jk10274 <72466440+jk10274@users.noreply.github.com>"
 }
