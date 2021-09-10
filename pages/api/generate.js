@@ -22,11 +22,11 @@ export default (req, res) => {
         message: "feat: Added OUTPUT.md programatically",
         content: contentEncoded,
         committer: {
-            name: `apuembot`,
+            name: `jk10274`,
             email: "apuembot@protonmail.com",
         },
         author: {
-            name: "apuembot",
+            name: "jk10274",
             email: "apuembot@protonmail.com",
         },
         });
