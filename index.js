@@ -17,8 +17,8 @@ const main = async () => {
       // replace the owner and email with your own details
       owner: "jk10274",
       repo: "github-file-gen-example",
-      path: "OUTPUT.md",
-      message: "feat: Added OUTPUT.md programatically",
+      path: "pages/posts/test.md",
+      message: "feat: Added test.md programatically",
       content: contentEncoded,
       committer: {
         name: `jk10274`,
