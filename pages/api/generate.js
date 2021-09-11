@@ -10,11 +10,11 @@ const octokit = new Octokit({
 
 export default (req, res) => {
 
-    /* try {
-        const content = fs.readFileSync("./../../input.txt", "utf-8");
+    try {
+        const content = fs.readFileSync("input.txt", "utf-8");
         const contentEncoded = Base64.encode(content);
 
-        const { data } = await octokit.repos.createOrUpdateFileContents({
+        const { data } = octokit.repos.createOrUpdateFileContents({
         // replace the owner and email with your own details
         owner: "jk10274",
         repo: "github-file-gen-example",
@@ -34,6 +34,6 @@ export default (req, res) => {
         console.log(data);
     } catch (err) {
         console.error(err);
-    } */
+    }
     res.status(200).json({ name: 'generate.js' });
 };
