@@ -11,7 +11,7 @@ const octokit = new Octokit({
 export default (req, res) => {
 
     try {
-        const content = fs.readFileSync("./input.txt", "utf-8");
+        const content = fs.readFileSync("./../../input.txt", "utf-8");
         const contentEncoded = Base64.encode(content);
 
         const { data } = await octokit.repos.createOrUpdateFileContents({
