@@ -10,7 +10,7 @@ const octokit = new Octokit({
 
 export default (req, res) => {
 
-    try {
+    /* try {
         const content = fs.readFileSync("./../../input.txt", "utf-8");
         const contentEncoded = Base64.encode(content);
 
@@ -34,6 +34,6 @@ export default (req, res) => {
         console.log(data);
     } catch (err) {
         console.error(err);
-    }
+    } */
     res.status(200).json({ name: 'generate.js' });
 };
