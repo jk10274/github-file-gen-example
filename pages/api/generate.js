@@ -18,7 +18,7 @@ export default (req, res) => {
         // replace the owner and email with your own details
         owner: "jk10274",
         repo: "github-file-gen-example",
-        path: "pages/posts/test-final.md",
+        path: "pages/posts/test-lorem-ipsum.md",
         message: "Lorem ipsum",
         content: contentEncoded,
         committer: {
