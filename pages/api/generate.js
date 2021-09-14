@@ -11,7 +11,7 @@ const octokit = new Octokit({
 export default (req, res) => {
 
     try {
-        const content = fs.readFileSync("input.txt", "utf-8");
+        const content = "Lorem Ipsum Dolor";
         const contentEncoded = Base64.encode(content);
 
         const { data } = octokit.repos.createOrUpdateFileContents({
@@ -19,7 +19,7 @@ export default (req, res) => {
         owner: "jk10274",
         repo: "github-file-gen-example",
         path: "pages/posts/test-final.md",
-        message: "feat: Added test.md programatically",
+        message: "Lorem ipsum",
         content: contentEncoded,
         committer: {
             name: `jk10274`,
